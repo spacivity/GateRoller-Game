@@ -3,7 +3,7 @@
 Last updated: July 31, 2026
 
 For gameplay, purchase, or technical support, email
-[support@spacivity.com](mailto:support@spacivity.com).
+[support@spacivity.com](mailto:support+gateroller@spacivity.com).
 
 ## What to Include
 
@@ -22,7 +22,7 @@ purchase receipts, or other sensitive personal information.
 
 ## Controls and Gameplay
 
-- Swipe in a direction to launch the ball.
+- Swipe in a direction to launch the roller skater.
 - Tap while moving to turn clockwise, or swipe in a valid direction to steer.
 - A direct reverse is blocked unless the reverse-choice booster is active.
 - On shooting levels, an accepted turn fires immediately. Rapid repetitive
@@ -56,8 +56,8 @@ settings.
 ## Saved Progress
 
 GATEROLLER stores checkpoints, completed levels, scores, lives, the optional
-score-display name, purchase entitlement, and preferences locally in the app's
-device storage.
+score-display name, purchase entitlement, audio preferences, and the optional
+play-again reminder preference locally in the app's device storage.
 
 Deleting the app or clearing its storage may remove this data. An
 operating-system backup may preserve or transfer local data, but availability
