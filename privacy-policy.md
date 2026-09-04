@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: August 16, 2026
+Last updated: September 4, 2026
 
 This Privacy Policy explains the data practices of the GATEROLLER mobile app.
 
@@ -19,6 +19,10 @@ GATEROLLER may also connect to Apple App Store or Google Play services to
 retrieve product information and to support buying or restoring the optional
 Full Game purchase.
 
+If you enable play-again reminders, GATEROLLER may ask the operating system
+for notification permission and schedule local reminder notifications on your
+device. These reminders do not use a GATEROLLER-operated notification server.
+
 ## Data Stored Locally
 
 GATEROLLER stores a small amount of data in the app storage on your device:
@@ -28,6 +32,7 @@ GATEROLLER stores a small amount of data in the app storage on your device:
   progress items
 - an optional player name or initials used for local score display
 - tutorial, music, and sound-effect preferences
+- the optional play-again reminder preference
 - a Full Game entitlement marker for offline access after purchase
 
 This data is used to restore gameplay, purchases, and preferences. The optional
@@ -109,8 +114,10 @@ your device, store, and Google settings.
 
 GATEROLLER uses internet access for Firebase Analytics and for native
 storefront product, purchase, and restore operations. It uses audio settings
-and vibration or haptic features for gameplay feedback. The app does not
-request access to the microphone, camera, contacts, or precise location.
+and vibration or haptic features for gameplay feedback. If you enable
+play-again reminders, the app requests notification permission so the operating
+system can show locally scheduled reminders. The app does not request access
+to the microphone, camera, contacts, or precise location.
 
 ## Retention, Backups, and Deletion
 
@@ -145,4 +152,4 @@ practices change. The "Last updated" date will identify the latest revision.
 
 ## Contact
 
-For privacy questions, contact support@spacivity.com.
+For privacy questions, contact support+gateroller@spacivity.com.
