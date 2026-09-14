@@ -1,19 +1,23 @@
 # Privacy Policy
 
-Last updated: September 4, 2026
+Last updated: September 14, 2026
 
 This Privacy Policy explains the data practices of the GATEROLLER mobile app.
 
 ## Summary
 
-GATEROLLER does not create publisher accounts, does not include advertising,
-and does not include social features. Gameplay progress and preferences are
-stored locally on your device so the game can work offline.
+GATEROLLER does not create publisher accounts and does not include social
+features. Gameplay progress and preferences are stored locally on your device
+so the game can work offline.
 
 GATEROLLER uses Firebase Analytics, a Google Analytics for Firebase service,
 to understand app usage, level progress, deaths, paywall activity, and whether
 players have Full Game access. This analytics data is sent to Google/Firebase
 and made available to GATEROLLER in analytics reports.
+
+The free version uses Google Mobile Ads, including Google's User Messaging
+Platform consent tools, to display and measure ads. Ads are not shown after
+the Full Game unlock is active.
 
 GATEROLLER may also connect to Apple App Store or Google Play services to
 retrieve product information and to support buying or restoring the optional
@@ -63,10 +67,11 @@ GATEROLLER does not set a Firebase user ID, does not send the local score name
 or initials to Firebase, and does not send store transaction IDs, purchase
 tokens, or payment-card details to Firebase Analytics.
 
-Advertising identifiers are not used for GATEROLLER analytics. The Android app
-removes the Google Play Services advertising ID permission and disables
-advertising ID collection for analytics. The iOS app uses Firebase Analytics
-without IDFA/ad ID support.
+Advertising identifiers are not used for GATEROLLER Firebase Analytics. The
+app uses Firebase Analytics without ad ID support. Google Mobile Ads may use
+advertising identifiers, ad interaction data, device information, IP address,
+approximate location inferred from IP address, and consent choices to deliver,
+limit, protect, and measure ads in the free version.
 
 Firebase Analytics is provided by Google. Google's processing of Firebase and
 Analytics data is governed by Google's policies and Firebase documentation:
@@ -74,6 +79,24 @@ Analytics data is governed by Google's policies and Firebase documentation:
 - [Firebase Data Collection](https://support.google.com/firebase/answer/6318039)
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [Firebase Analytics Data Collection Controls](https://firebase.google.com/docs/analytics/android/configure-data-collection)
+
+## Advertising
+
+GATEROLLER uses Google Mobile Ads / AdMob in the free version. The app requests
+non-personalized ads from the JavaScript ad placements and uses Google's User
+Messaging Platform to request consent where required. Google may still process
+data needed to deliver and measure ads, prevent fraud, cap frequency, and
+operate AdMob.
+
+The Full Game purchase removes GATEROLLER's banner and rewarded interstitial ad
+placements. Google, Apple, or Google Play may still process information for
+their platform services, storefronts, or operating-system features.
+
+Google's advertising data practices and controls are described by Google:
+
+- [Google Privacy Policy](https://policies.google.com/privacy)
+- [Google AdMob](https://admob.google.com/)
+- [Google Ads and Data](https://policies.google.com/technologies/ads)
 
 ## Purchases and Store Services
 
@@ -102,19 +125,18 @@ server:
 - contacts, photos, videos, or documents
 - camera or microphone data
 - payment-card information
-- advertising identifiers
 - player chat, social graph, or contact-list information
 
-The app does not include advertising SDKs, Firebase Crashlytics, or publisher
-account systems. Operating-system, storefront, Firebase, and Google Analytics
+The app does not include Firebase Crashlytics or publisher account systems.
+Operating-system, storefront, Firebase, Google Analytics, and Google Mobile Ads
 processing are separate platform or third-party services and may depend on
-your device, store, and Google settings.
+your device, store, consent choices, and Google settings.
 
 ## Permissions and Device Features
 
-GATEROLLER uses internet access for Firebase Analytics and for native
-storefront product, purchase, and restore operations. It uses audio settings
-and vibration or haptic features for gameplay feedback. If you enable
+GATEROLLER uses internet access for Firebase Analytics, Google Mobile Ads, and
+native storefront product, purchase, and restore operations. It uses audio
+settings and vibration or haptic features for gameplay feedback. If you enable
 play-again reminders, the app requests notification permission so the operating
 system can show locally scheduled reminders. The app does not request access
 to the microphone, camera, contacts, or precise location.
@@ -142,8 +164,10 @@ privacy requests related to analytics data, contact support@spacivity.com.
 ## Children's Privacy
 
 GATEROLLER does not knowingly collect personal information from children. The
-app does not include publisher accounts, advertising, social features, camera
-access, microphone access, contact access, or precise-location access.
+app does not include publisher accounts, social features, camera access,
+microphone access, contact access, or precise-location access. Ads in the free
+version are configured with a PG maximum ad content rating and
+non-personalized ad requests from the app's ad placements.
 
 ## Changes to This Policy
 
@@ -152,4 +176,4 @@ practices change. The "Last updated" date will identify the latest revision.
 
 ## Contact
 
-For privacy questions, contact support+gateroller@spacivity.com.
+For privacy questions, contact support@spacivity.com.
